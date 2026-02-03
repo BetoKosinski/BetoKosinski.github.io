@@ -12,6 +12,21 @@ header {
   background: #24292f;
   color: #fff;
   padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+}
+
+.header-text {
   text-align: center;
 }
 
@@ -24,9 +39,9 @@ main {
 }
 
 footer {
-  background: #24292f
+  background: #24292f;
   color: white;
   text-align: center;
   padding: 1rem;
-  margin-top: 2rem
+  margin-top: 2rem;
 }
