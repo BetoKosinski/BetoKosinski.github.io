@@ -27,6 +27,17 @@ header {
   flex-shrink: 0;
 }
 
+.project-image {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.project-image:hover {
+  transform: scale(1.05);
+}
+
 .header-text {
   text-align: center;
 }
@@ -44,5 +55,5 @@ footer {
   color: white;
   text-align: center;
   padding: 1rem;
-  margin-top: 2rem;
+  margin-top: 0;
 }
