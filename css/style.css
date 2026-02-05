@@ -63,7 +63,6 @@ section ul {
   padding-left: 0;
   display: flex;
   gap: 20px;
-  flex-wrap: wrap;
   justify-content: center;
 }
 
