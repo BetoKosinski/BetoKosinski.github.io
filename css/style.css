@@ -61,4 +61,17 @@ footer {
 section ul {
   list-style: none;
   padding-left: 0;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
+section ul li {
+  text-align: center;
+}
+
+section ul li p {
+  margin-top: 10px;
+}
+
