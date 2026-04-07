@@ -94,12 +94,42 @@ section ul li p {
 footer {
   background: #24292f;
   color: #fff;
-  text-align: center;
   padding: 2rem;
   width: 100%;
   margin: 0;
 }
 
-footer p {
+.footer-grid {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.footer-item {
+  flex: 1;
+  max-width: 25%;
+  padding: 0 1rem;
+}
+
+.footer-icon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+}
+
+.footer-item h3 {
+  font-size: 0.95rem;
+  margin-bottom: 0.3rem;
+}
+
+.footer-item p {
+  font-size: 0.85rem;
   margin: 0;
+  color: #ccc;
+}
+
+.footer-item a {
+  display: inline-block;
 }
